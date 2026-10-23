@@ -1,0 +1,41 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: #D9E8D2;
+    font-family: 'Nohemi', sans-serif;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Nohemi";
+    src: url(../fonts/Nohemi-Regular-BF6a4e01a26b011.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nohemi";
+    src: url(../fonts/Nohemi-Medium-BF6a4e01a26b011.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: clamp(48px, 8vw, 96px);
+}
+
+.quizz-container{
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 500px;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.quizz-box{
+    background-color: #FFFDF5;
+    border-radius: 35px;
+}
+
+ 
